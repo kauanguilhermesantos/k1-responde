@@ -2,7 +2,7 @@
     {
         "id": "ex1-condicional-c",
         "titulo": "Sistema de Monitoramento de Tensão",
-        "liguagem": "c",
+        "linguagem": "c",
         "tema": "condicional",
         "dificuldade": "facil",
         "contexto": "Em sistemas elétricos e eletrônicos, monitorar a tensão é crucial para garantir a segurança e o correto funcionamento dos dispositivos.",
@@ -11,7 +11,7 @@
     {
         "id": "ex2-condicional-c",
         "titulo": "Cálculo de Potência",
-        "liguagem": "c",
+        "linguagem": "c",
         "tema": "condicional",
         "dificuldade": "medio",
         "contexto": "A potência é uma operação matemática fundamental em engenharia, frequentemente usada em análises de circuitos elétricos, cálculos de energia e outros.",
@@ -21,7 +21,7 @@
     {
         "id":"ex3-condicional-c",
         "titulo": "Conversão Simplificada de Bases Numéricas",
-        "liguagem": "c",
+        "linguagem": "c",
         "tema": "condicional",
         "dificuldade": "facil",
         "contexto": "A conversão entre bases numéricas é fundamental em computação. Enquanto computadores operam internamente com base binária, os humanos geralmente usam base decimal.",
@@ -30,7 +30,7 @@
     {
         "id":"ex4-condicional-c",
         "titulo": "Lei de Ohm",
-        "liguagem": "c",
+        "linguagem": "c",
         "tema": "condicional",
         "dificuldade": "facil",
         "contexto": "A Lei de Ohm é fundamental na análise e design de circuitos elétricos. Ela relaciona a tensão, corrente e resistência em um circuito.",
@@ -40,7 +40,7 @@
     {
         "id": "ex5-condicional-c",
         "titulo": "Simulador de Espectro de Frequência",
-        "liguagem": "c",
+        "linguagem": "c",
         "tema": "condicional",
         "dificuldade": "medio",
         "contexto": "Em engenharia da computação e em telecomunicações, o espectro de frequência é fundamental. As faixas de frequência são meticulosamente alocadas para evitar interferências entre diferentes tecnologias e serviços. Por exemplo, estações de rádio FM não interferem no Wi-Fi doméstico porque operam em diferentes faixas de frequência. Cada faixa tem suas propriedades e usos específicos em diferentes aplicações, desde comunicação móvel até satélites e radar.",
@@ -49,7 +49,7 @@
     {
         "id": "ex6-condicional-c",
         "titulo": "Cálculo da Saída de um Neurônio Simples",
-        "liguagem": "c",
+        "linguagem": "c",
         "tema": "condicional",
         "dificuldade": "medio",
         "contexto": "Nas últimas décadas, as redes neurais têm sido uma ferramenta fundamental em várias aplicações de aprendizado de máquina, desde reconhecimento de voz até detecção de objetos em imagens. O nome 'rede neural' é inspirado no funcionamento do cérebro humano e, da mesma forma que o cérebro é composto por neurônios interconectados, uma rede neural é composta por neurônios artificiais interconectados. Um neurônio artificial simples processa a informação multiplicando sua entrada por um peso, adicionando um bias e, em seguida, possivelmente passando o resultado por uma função de ativação. Esse modelo simplificado é poderoso o suficiente para permitir que redes neurais aprendam uma variedade incrível de tarefas.",
@@ -59,7 +59,7 @@
     {
         "id":"ex7-condicional-c",
         "titulo": "Identificação de Circuitos Lógicos",
-        "liguagem": "c",
+        "linguagem": "c",
         "tema": "condicional",
         "dificuldade": "facil",
         "contexto": "Em nossos dispositivos eletrônicos diários, de smartphones a computadores de alto desempenho, o processamento de informações ocorre em nível binário. Os circuitos lógicos, também conhecidos como portas lógicas, são fundamentais nesse processo. São os blocos de construção básicos dos chips de computador e são usados para realizar operações lógicas básicas que estão no núcleo da aritmética do computador e da tomada de decisão. A capacidade de identificar e compreender a função desses circuitos é fundamental para qualquer engenheiro ou entusiasta da eletrônica. Vamos associar cada circuito lógico a um número para facilitar sua identificação: 1 - AND; 2 - OR; 3 - NOT; ... (e assim por diante, se desejado)",
@@ -68,7 +68,7 @@
     {
         "id": "ex8-condicional-c",
         "titulo": "Normalização de Dados",
-        "liguagem": "c",
+        "linguagem": "c",
         "tema": "condicional",
         "dificuldade": "medio",
         "contexto": "Em muitos problemas de aprendizado de máquina, os dados de entrada podem variar amplamente em magnitude. Por exemplo, a idade de uma pessoa pode estar entre 0 e 100, enquanto seu salário pode variar de milhares a milhões. Quando esses dados são usados para treinar modelos, características com magnitudes maiores podem dominar o treinamento, levando a modelos subótimos. A normalização é uma técnica de pré-processamento que ajuda a transformar todas as características para uma escala comum, geralmente entre 0 e 1. Ao fazer isso, cada característica tem a mesma importância durante o treinamento, tornando o processo mais eficiente e produzindo um modelo mais equilibrado. A técnica apresentada aqui, onde subtraímos o mínimo e dividimos pelo intervalo (máximo - mínimo), é uma das abordagens mais comuns para normalização.",
@@ -78,7 +78,7 @@
     {
         "id": "ex9-condicional-c",
         "titulo": "Catálogo de Componentes Eletrônicos",
-        "liguagem": "c",
+        "linguagem": "c",
         "tema": "condicional",
         "dificuldade": "facil",
         "contexto": "A engenharia eletrônica abrange uma variedade de componentes, cada um com suas características e aplicações específicas. Para engenheiros, técnicos e entusiastas, é vital identificar rapidamente componentes para projetar, construir e depurar circuitos de maneira eficiente. Um catálogo eletrônico permite uma rápida referência e identificação de componentes, auxiliando na tomada de decisões durante o projeto e a análise de circuitos.",
@@ -87,10 +87,107 @@
     {
         "id": "ex10-condicional-c",
         "titulo": "Classificação Binária Simples",
-        "liguagem": "c",
+        "linguagem": "c",
         "tema": "condicional",
         "dificuldade": "medio",
         "contexto": "Em muitos problemas de aprendizado de máquina, especialmente em áreas como processamento de linguagem natural, visão computacional e análise de sentimento, os dados são categorizados em duas classes distintas. Isso é conhecido como classificação binária. Por exemplo, um email pode ser 'spam' ou 'não spam', ou uma imagem pode conter um gato ou não. A capacidade de classificar com precisão esses dados é crucial para muitas aplicações modernas. Utilizar um limiar para decidir a classe de uma entrada é uma das abordagens mais básicas e fundamentais na classificação binária.",
         "comando": "1 - Solicite ao usuário um valor de entrada e um limiar. 2 - Se a entrada for maior que o limiar, imprima 'Classe A'. 3 - Caso contrário, imprima 'Classe B'."
+    },
+    {
+        "id": "ex1-repeticao-c",
+        "titulo": "Monitoramento Contínuo de Tensão",
+        "linguagem": "c",
+        "tema": "repeticao",
+        "dificuldade": "facil",
+        "contexto": "Em sistemas eletrônicos, o monitoramento contínuo da tensão é fundamental para garantir a segurança e a eficiência do equipamento. Por exemplo, baterias de dispositivos móveis, quando sobrecarregadas, podem sofrer danos ou até mesmo explodir.",
+        "comando": "Implemente um sistema que lê continuamente a tensão (em volts) de um dispositivo. O sistema deve executar em um laço 'while' e monitorar a tensão até que o usuário decida parar a leitura (por exemplo, pressionando a tecla 'q'). Em cada leitura, o sistema deve classificar a tensão como: - Baixa (menor que 3.5V); - Média (entre 3.5V e 4.2V); - Alta (maior que 4.2V). Em caso de tensão alta, um alerta deve ser exibido para o usuário.",
+        "dica": "Use um laço 'while' e instruções condicionais para implementar o sistema descrito acima."
+    },
+    {
+        "id": "ex2-repeticao-c",
+        "titulo": "Análise de Frequências em um Espectro",
+        "linguagem": "c",
+        "tema": "repeticao",
+        "dificuldade": "facil",
+        "contexto": "Em telecomunicações, o espectro de frequência é dividido em várias faixas, cada uma com propriedades e aplicações específicas. O conhecimento dessas faixas é essencial para engenheiros e técnicos para evitar interferências e garantir uma comunicação eficiente. As faixas de frequência e suas aplicações típicas são: - 0-10GHz: Comunicação móvel; - 10-20GHz: Satélite; - 20-30GHz: Radar; - 30-40GHz: Comunicação por fibra ótica; - 40-50GHz: Wi-Fi; - 50-60GHz: Radiodifusão; - 60-70GHz: Pesquisa astronômica; - 70-80GHz: Medicina e imagiologia; - 80-90GHz: Comunicações militares; - 90-100GHz: Pesquisa científica",
+        "comando": "Utilize um laço 'for' para iterar sobre o espectro de frequência em incrementos de 10GHz. Para cada faixa: - Identifique a aplicação ou sinal mais provável com base nas faixas fornecidas acima. - Imprima a faixa de frequência e sua aplicação/sinal associado."
+    },
+    {
+        "id": "ex3-repeticao-c",
+        "titulo": "Simulação Simplificada de um Osciloscópio",
+        "linguagem": "c",
+        "tema": "repeticao",
+        "dificuldade": "facil",
+        "contexto": "Um osciloscópio é uma ferramenta essencial em laboratórios de eletrônica. Ele é utilizado para visualizar sinais elétricos. Em sua forma mais básica, quando um sinal de alta frequência é detectado, ele exibe uma onda senoidal no visor, enquanto um sinal de baixa frequência pode parecer mais uma linha reta.",
+        "comando": "Você não precisa simular um osciloscópio completo, mas sim criar uma representação simplificada. - Solicite ao usuário que insira uma 'frequência' (pode ser simplesmente um número entre 1 e 10). - Se a frequência for 5 ou menos, imprima uma linha reta, representada por '-------'. - Se a frequência for maior que 5, imprima uma onda senoidal simplificada, representada por '/\\/\\/'."
+    },
+    {
+        "id": "ex4-repeticao-c",
+        "titulo": "Medição Iterativa de Resistência em um Circuito",
+        "linguagem": "c",
+        "tema": "repeticao",
+        "dificuldade": "medio",
+        "contexto": "Em laboratórios de eletrônica e em processos de manutenção, é comum medir a resistência de componentes ou de partes de um circuito várias vezes para garantir precisão e verificar a estabilidade do componente ou circuito.",
+        "comando": "Suponha que você esteja trabalhando com um multímetro digital e deseja medir a resistência de um resistor em diferentes momentos para verificar sua estabilidade. - Utilize um laço 'for' para simular 5 medições de resistência. - Em cada iteração, solicite ao usuário que insira o valor medido (em Ohms). - Calcule e imprima a média dos valores medidos após todas as iterações. - Caso a variação entre as medições exceda um limite pré-definido (por exemplo, 5% do valor médio), alerte o usuário sobre a possível instabilidade do resistor."
+    },
+    {
+        "id": "ex5-repeticao-c",
+        "titulo": "Monitoramento de Faixas de Frequência",
+        "linguagem": "c",
+        "tema": "repeticao",
+        "dificuldade": "facil",
+        "contexto": "Em sistemas de comunicação, é crucial monitorar as faixas de frequência para evitar interferências e garantir a qualidade da transmissão. Cada serviço, como rádio FM, Wi-Fi, etc., opera em uma faixa de frequência específica.",
+        "comando": "Implemente um programa que monitore continuamente as faixas de frequência, identificando a qual serviço cada uma pertence ou indicando se a frequência inserida não corresponde a nenhum serviço conhecido. - Solicite ao usuário que insira uma frequência (em MHz). - Classifique a frequência inserida em uma das seguintes categorias: Rádio FM (88-108 MHz), Wi-Fi (2400-2500 MHz), GPS (1575.42 MHz). - Se a frequência não se encaixar em nenhuma das categorias, informe ao usuário que a frequência não corresponde a nenhum serviço conhecido. - Use um laço para permitir múltiplas entradas sem reiniciar o programa.",
+        "dica": "Utilize um laço 'while' para manter o programa em execução e estruturas 'if-else' para classificar as faixas de frequência e lidar com entradas que não correspondem a nenhum serviço."
+    },
+    {
+        "id": "ex6-repeticao-c",
+        "titulo": "Treinamento Iterativo de um Neurônio Artificial",
+        "linguagem": "c",
+        "tema": "repeticao",
+        "dificuldade": "facil",
+        "contexto": "Em aprendizado de máquina, os neurônios artificiais são ajustados iterativamente para melhorar seu desempenho em tarefas específicas. O processo de ajustar o peso de um neurônio com base em um erro é chamado de treinamento.",
+        "comando": "Simule um treinamento básico de um neurônio. Para cada iteração, ajuste o peso do neurônio com base em um valor de erro fornecido. - Inicie o neurônio com um peso aleatório entre 0 e 1. - Em cada iteração, solicite ao usuário um valor de erro (por exemplo, um número entre -1 e 1). - Ajuste o peso do neurônio subtraindo o valor do erro. - Continue o treinamento até que o usuário decida parar, inserindo um valor específico, como -999.",
+        "dica": "Use um laço 'do-while' para continuar o treinamento até que a condição de parada seja atendida. Ajuste o peso usando operações aritméticas simples."
+    },
+    {
+        "id": "ex7-repeticao-c",
+        "titulo": "Análise de Valores Lógicos Consecutivos",
+        "linguagem": "c",
+        "tema": "repeticao",
+        "dificuldade": "facil",
+        "contexto": "Em sistemas digitais, frequentemente trabalhamos com valores lógicos (0 ou 1). Esses valores são fundamentais na lógica de programação e no funcionamento de circuitos eletrônicos.",
+        "comando": "Implemente um programa que leia três valores lógicos consecutivos e determine se todos são iguais ou se há um valor diferente. - Solicite ao usuário que insira três valores lógicos consecutivos (um de cada vez). - Analise os valores e determine se todos são '0', todos são '1', ou há uma mistura de '0's e '1's. - Informe ao usuário o resultado da análise.",
+        "dica": "Use estruturas 'if-else' para comparar os valores lógicos e determinar a categoria apropriada."
+    },
+    {
+        "id": "ex8-repeticao-c",
+        "titulo": "Processamento Iterativo de Sinais",
+        "linguagem": "c",
+        "tema": "repeticao",
+        "dificuldade": "facil",
+        "contexto": "O processamento de sinais é crucial em sistemas de comunicação. Em muitas situações, precisamos calcular a média de várias leituras para obter um valor representativo ou para filtrar ruído.",
+        "comando": "Implemente um programa que leia uma quantidade específica de valores representando leituras de sinal e calcule a média. - Solicite ao usuário quantas leituras de sinal ele deseja fazer (por exemplo, 5 leituras). - Use um laço para solicitar e acumular cada leitura. - Calcule e exiba a média dos valores inseridos.",
+        "dica": "Use um laço 'for' ou 'while' para iterar pela quantidade desejada de leituras e acumule a soma dos valores para, em seguida, calcular a média."
+    },
+    {
+        "id": "ex9-repeticao-c",
+        "titulo": "Catalogação Automatizada de Componentes",
+        "linguagem": "c",
+        "tema": "repeticao",
+        "dificuldade": "facil",
+        "contexto": "Em laboratórios e oficinas eletrônicas, os componentes são geralmente identificados por códigos numéricos.",
+        "comando": "Implemente um programa que associe códigos numéricos a seus respectivos componentes eletrônicos. Classificações: 1 - Resistor; 2 - Capacitor; 3 - Indutor; 4 - Transistor; 5 - Diodo. - Solicite ao usuário que insira um código numérico (de 1 a 5). - Use desvios condicionais para determinar qual componente corresponde ao código inserido. - Exiba o nome do componente correspondente. - Caso o usuário insira um código fora do intervalo de 1 a 5, informe-o de que o código é inválido.",
+        "dica": "Use estruturas 'if-else' ou 'switch-case' para mapear códigos a seus respectivos componentes."
+    },
+    {
+        "id": "ex10-repeticao-c",
+        "titulo": "Classificação Iterativa de Dados",
+        "linguagem": "c",
+        "tema": "repeticao",
+        "dificuldade": "facil",
+        "contexto": "Em processamento de sinais ou análise de dados, frequentemente é necessário categorizar diferentes magnitudes ou intensidades.",
+        "comando": "Implemente um programa que leia uma série de valores e classifique cada valor em 'Baixo', 'Médio' ou 'Alto'. Classificações: - Baixo: 0 a 3.99; - Médio: 4 a 6.99; - Alto: 7 a 10. - Solicite ao usuário quantos valores ele deseja classificar. - Use um laço para solicitar e classificar cada valor. - Para cada valor inserido, classifique-o conforme as faixas acima e exiba sua categoria. - Se o valor inserido estiver fora do intervalo de 0 a 10, informe o usuário de que o valor é inválido.",
+        "dica": "Use um laço 'for' ou 'while' para iterar pela quantidade desejada de valores. Em cada iteração, use estruturas 'if-else' para determinar e exibir a categoria do valor."
     }
 ]
