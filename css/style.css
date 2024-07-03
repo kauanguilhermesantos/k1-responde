@@ -287,17 +287,35 @@ body {
     border: var(--cor-verde);
 }
 
-.botaoFiltro {
+.botaoFiltro, .botaoLimparFiltro {
+    margin-left: 1rem;
     /* border: 1px solid red; */
-    padding: 0.4rem;
+    padding: 0.4rem 0.8rem;
     border-radius: 2rem;
-    background: var(--cor-verde);
+    background: var(--cor-azul);
     /* border: 0.1rem solid var(--cor-azul); */
+    color: var(--cor-branca);
 }
 
-.botaoFiltro:hover {
+/* .botaoFiltro:hover {
     background-color: var(--cor-azul);
     color: var(--cor-branca);
+    /* border: 0.1rem solid var(--cor-verde); 
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+} */
+
+/* .botaoLimparFiltro {
+    margin-left: 1rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 2rem;
+    background: var(--cor-azul);
+    color: var(--cor-branca);
+} */
+
+.botaoFiltro:hover, .botaoLimparFiltro:hover {
+    background-color: #76AF28;
+    color: var(--cor-azul);
     /* border: 0.1rem solid var(--cor-verde); */
     transition: 0.2s ease-in-out;
     cursor: pointer;

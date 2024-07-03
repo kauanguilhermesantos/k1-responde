@@ -189,5 +189,8 @@
         "contexto": "Em processamento de sinais ou análise de dados, frequentemente é necessário categorizar diferentes magnitudes ou intensidades.",
         "comando": "Implemente um programa que leia uma série de valores e classifique cada valor em 'Baixo', 'Médio' ou 'Alto'. Classificações: - Baixo: 0 a 3.99; - Médio: 4 a 6.99; - Alto: 7 a 10. - Solicite ao usuário quantos valores ele deseja classificar. - Use um laço para solicitar e classificar cada valor. - Para cada valor inserido, classifique-o conforme as faixas acima e exiba sua categoria. - Se o valor inserido estiver fora do intervalo de 0 a 10, informe o usuário de que o valor é inválido.",
         "dica": "Use um laço 'for' ou 'while' para iterar pela quantidade desejada de valores. Em cada iteração, use estruturas 'if-else' para determinar e exibir a categoria do valor."
+    },
+    {
+        "id": ""
     }
 ]
