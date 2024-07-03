@@ -347,7 +347,8 @@ body {
 .cardQuestao:hover {
     transition: 0.2s ease-in-out;
     transform: scale(1.02);
-    filter: drop-shadow(0 0 20px var(--cor-verde));   
+    filter: drop-shadow(0 0 20px var(--cor-verde));
+    cursor: pointer;
 }
 
 .tituloQuestao {

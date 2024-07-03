@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/animacoes-hover.css">
+    <link rel="stylesheet" href="/css/pop-up.css">
     <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -82,14 +83,28 @@
                     </footer>
                 </div>
             </a>
-            <div class="cardQuestao">
-                <h2 class="tituloQuestao">Sistema de Monitoramento de Tensão</h2>
+            <div onclick="abrirPopUp()">
+                <div class="cardQuestao">
+                    <h2 class="tituloQuestao">Sistema de Monitoramento de Tensão</h2>
+                    <hr>
+                    <footer class="rodapeCardQuestoes">
+                        <img src="../assets/imagens/icons8-c-programming.svg" alt="icon da linguagem c" class="linguagemQuestao">
+                        <p class="temaQuestao">Estruturas de Condição</p>
+                        <p class="dificuldadeQuestao">Fácil</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <div class="containerPopUp">
+            <div class="popUp">
+                <h2>Título</h2>
                 <hr>
-                <footer class="rodapeCardQuestoes">
-                    <img src="../assets/imagens/icons8-c-programming.svg" alt="icon da linguagem c" class="linguagemQuestao">
-                    <p class="temaQuestao">Estruturas de Condição</p>
-                    <p class="dificuldadeQuestao">Fácil</p>
-                </footer>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde natus optio numquam modi non harum placeat incidunt possimus voluptas architecto repellendus pariatur aperiam adipisci nisi eos, totam qui consequatur illum!</p>
+                <hr>
+                <div class="botoesPopUp">
+                    <button onclick="fecharPopUp()">OK</button>
+                    <button onclick="fecharPopUp()">Fechar</button>
+                </div>
             </div>
         </div>
     </main>
@@ -98,5 +113,6 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/scripts/pop-up.js"></script>
 </body>
 </html>
