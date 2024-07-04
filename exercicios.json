@@ -191,6 +191,57 @@
         "dica": "Use um laço 'for' ou 'while' para iterar pela quantidade desejada de valores. Em cada iteração, use estruturas 'if-else' para determinar e exibir a categoria do valor."
     },
     {
-        "id": ""
+        "id": "ex1-strings-c",
+        "titulo": "Inversão de Strings",
+        "linguagem": "c",
+        "tema": "strings",
+        "dificuldade": "medio",
+        "comando": "Implemente uma função que inverte a string dada.",
+        "exemplo": "Entrada: 'Hello' - Saída: 'olleH'"
+    },
+    {
+        "id": "ex2-strings-c",
+        "titulo": "Contagem de Vogais",
+        "linguagem": "c",
+        "tema": "strings",
+        "dificuldade": "medio",
+        "comando": "Implemente uma função que conta o número de vogais na string dada.",
+        "exemplo": "Entrada: 'Hello World' - Saída: 3"
+    },
+    {
+        "id": "ex3-strings-c",
+        "titulo": "Transformação para Maiúsculas",
+        "linguagem": "c",
+        "tema": "strings",
+        "dificuldade": "medio",
+        "comando": "Implemente uma função que transforma todos os caracteres da string dada em maiúsculas.",
+        "exemplo": "Entrada: 'Hello' - Saída: 'HELLO'"
+    },
+    {
+        "id": "ex4-strings-c",
+        "titulo": "Verificação de Palíndromo",
+        "linguagem": "c",
+        "tema": "strings",
+        "dificuldade": "medio",
+        "comando": "Implemente uma função que verifica se a string dada é um palíndromo.",
+        "exemplo": "Entrada: 'level' - Saída: 'É um palíndromo'"
+    },
+    {
+        "id": "ex5-strings-c",
+        "titulo": "Contagem de Palavras",
+        "linguagem": "c",
+        "tema": "strings",
+        "dificuldade": "medio",
+        "comando": "Implemente uma função que conta o número de palavras na string dada.",
+        "exemplo": "Entrada: 'Hello World from C' - Saída: 4"
+    },
+    {
+        "id": "ex6-strings-c",
+        "titulo": "Capitalização de Strings",
+        "linguagem": "c",
+        "tema": "strings",
+        "dificuldade": "medio",
+        "comando": "Implemente uma função que capitalize a primeira letra de cada palavra na string dada.",
+        "exemplo": "Entrada: 'hello world' - Saída: 'Hello World'"
     }
 ]
