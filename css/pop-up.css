@@ -1,35 +1,23 @@
 :root{
     font-size: 62.5%;
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Lato', sans-serif;
     --cor-branca: #cacaca;
+    --cor-verde: #76AF28;
+    --cor-azul: #03445E;
 }
 
 .containerPopUp {
-    width: 100vw;
-    position: fixed;
-    top: 3rem;
-    display: none;
-    z-index: 999;
-    justify-content: center;
-}
-
-.popUp {
-    display: flex;
-    flex-direction: column;
-    padding: 3rem;
+    width: 90%;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 2rem;
     background-color: var(--cor-branca);
-    border-radius: 1rem;
-    width: 50%;
+    box-shadow: 0 0 1em rgb(0 0 0 / .3);
+    animation: popup-abrir 0.4s ease-in-out forwards;
 }
 
-.ativo {
-    display: flex;
-}
-
-.ativo .popUp {
-    animation: popup 0.4s;
-}
-
-@keyframes popup {
+@keyframes popup-abrir {
     from {
         opacity: 0;
         transform: translate3d(0, -6rem, 0);
@@ -40,12 +28,68 @@
     }
 }
 
-.popUp p {
-    margin: 1rem auto;
+/* .containerPopUp.fechar {
+    animation: popup-fechar 0.4s;
+} */
+
+@keyframes popup-fechar {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(0, -6rem, 0);
+    }
 }
 
-.botoesPopUp {
+.containerPopUp::backdrop {
+    background-color: rgb(0 0 0 / .3);
+}
+
+.containerPopUp h2 {
+    font-family: var(--fonte-primaria);
+    font-size: 2rem;
+}
+
+.containerPopUp hr {
+    margin: 1.2rem 0;
+}
+
+.containerPopUp p {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.containerPopUp .botoesPopUp {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.containerPopUp .botoesPopUp .botaoOK {
+    /* border: 1px solid red; */
+    font-family: var(--fonte-primaria);
+    font-size: 1.4rem;
+    padding: 0.4rem 1.4rem;
+    background-color: var(--cor-azul);
+    color: var(--cor-branca);
+    border-radius: 0.8rem;
+    box-shadow: 0 0 1rem rgb(0 0 0 / .5);
+}
+
+.containerPopUp .botoesPopUp .botaoOK:hover {
+    background-color: #76AF28;
+    color: var(--cor-azul);
+    /* border: 0.1rem solid var(--cor-verde); */
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+/* .botoesPopUp {
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
-}
+} */

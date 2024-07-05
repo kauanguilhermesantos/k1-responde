@@ -72,7 +72,6 @@
             </form>
         </div>
         <div class="containerExercicios">
-            <div onclick="abrirPopUp()">
                 <div class="cardQuestao">
                     <h2 class="tituloQuestao">Sistema de Monitoramento de Tensão</h2>
                     <hr>
@@ -82,8 +81,6 @@
                         <p class="dificuldadeQuestao">Fácil</p>
                     </footer>
                 </div>
-            </div>
-            <div onclick="abrirPopUp()">
                 <div class="cardQuestao">
                     <h2 class="tituloQuestao">Sistema de Monitoramento de Tensão</h2>
                     <hr>
@@ -93,9 +90,18 @@
                         <p class="dificuldadeQuestao">Fácil</p>
                     </footer>
                 </div>
-            </div>
         </div>
-        <div class="containerPopUp">
+        
+        <dialog class="modal containerPopUp ">
+            <h2>Título</h2>
+                <hr>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde natus optio numquam modi non harum placeat incidunt possimus voluptas architecto repellendus pariatur aperiam adipisci nisi eos, totam qui consequatur illum!</p>
+                <hr>
+                <div class="botoesPopUp">
+                    <button class="botaoOK">OK</button>
+                </div>
+        </dialog>
+        <!-- <div class="containerPopUp">
             <div class="popUp">
                 <h2>Título</h2>
                 <hr>
@@ -106,7 +112,7 @@
                     <button onclick="fecharPopUp()">Fechar</button>
                 </div>
             </div>
-        </div>
+        </div> -->
     </main>
     <footer class="rodape">
         <p>Desenvolvido por <a href="www.linkedin.com/in/kauan-guilherme-santos" class="linkLinkedIn">Kauan Guilherme Santos.</a></p>
