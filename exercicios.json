@@ -415,5 +415,115 @@
         "dificuldade": "dificil",
         "comando": "Implemente uma função que aplica transformações geométricas a um ponto no espaço.",
         "exemplo": "Entrada: Ponto: [1, 2, 3] - Transformações: Rotação, Translação, Escala (matrizes fornecidas - Saída esperada nos comentários: [4.00] - [5.00] - [6.00]"
+    },
+    {
+        "id": "ex1-ponteiro-c",
+        "titulo": "Cálculo da média de um vetor de inteiros",
+        "linguagem": "c",
+        "tema": "ponteiro",
+        "dificuldade": "medio",
+        "dica": "USE APENAS ARITMÉTICA DE PONTEIROS. NÃO USE INDEXADORES ENTRE COLCHETES (EX:[i][j]).",
+        "comando": "Implemente uma função que calcula a média de um vetor de inteiros com 3 posições. A média é calculada somando-se todos os elementos e dividindo pelo número de elementos.",
+        "exemplo": "Entrada: 1 2 6 - Saída: 3.00"
+    },
+    {
+        "id": "ex2-ponteiro-c",
+        "titulo": "Encontrar o valor máximo em um vetor de floats",
+        "linguagem": "c",
+        "tema": "ponteiro",
+        "dificuldade": "medio",
+        "dica":"USE APENAS ARITMÉTICA DE PONTEIROS. NÃO USE INDEXADORES ENTRE COLCHETES (EX:[i][j]).",
+        "comando": "Implemente uma função que retorna o valor máximo de um vetor de floats com 3 posições.",
+        "exemplo": "Entrada: 1.2 10.3 9.2 - Saída: 10.30"
+    },
+    {
+        "id": "ex3-ponteiro-c",
+        "titulo": "Contar quantas vezes um número específico aparece em um vetor",
+        "linguagem": "c",
+        "tema": "ponteiro",
+        "dificuldade": "medio",
+        "dica": "USE APENAS ARITMÉTICA DE PONTEIROS. NÃO USE INDEXADORES ENTRE COLCHETES (EX:[i][j]).",
+        "comando": "Implemente uma função que conta quantas vezes um número específico aparece em um vetor de inteiros com 3 posições.",
+        "exemplo": "Entrada: 1 3 3 - 3 - Saída: 2"
+    },
+    {
+        "id":"ex4-ponteiro-c",
+        "titulo": "Somar todos os valores em um vetor de floats",
+        "linguagem": "c",
+        "tema": "ponteiro",
+        "dificuldade": "medio",
+        "dica": "USE APENAS ARITMÉTICA DE PONTEIROS. NÃO USE INDEXADORES ENTRE COLCHETES (EX:[i][j]).",
+        "comando": "Implemente uma função que soma todos os valores de um vetor de floats com 3 posições.",
+        "exemplo": "Entrada: 1.2 2.3 3.4 - Saída: 6.90"
+    },
+    {
+        "id": "ex5-ponteiro-c",
+        "titulo": "Inverter a ordem de um vetor de inteiros",
+        "linguagem": "c",
+        "tema": "ponteiro",
+        "dificuldade": "medio",
+        "dica":"USE APENAS ARITMÉTICA DE PONTEIROS. NÃO USE INDEXADORES ENTRE COLCHETES (EX:[i][j]).",
+        "comando": "Implemente uma função que inverte a ordem de um vetor de inteiros com 3 posições.",
+        "exemplo": "Entrada: 1 2 3 - Saída: 3 2 1"
+    },
+    {
+        "id": "ex6-ponteiro-c",
+        "titulo": "Determinar se um vetor de inteiros é palíndromo",
+        "linguagem": "c",
+        "tema": "ponteiro",
+        "dificuldade": "medio",
+        "dica": "USE APENAS ARITMÉTICA DE PONTEIROS. NÃO USE INDEXADORES ENTRE COLCHETES (EX:[i][j]).",
+        "comando": "Implemente uma função que verifica se um vetor de inteiros com 10 posições é palíndromo. Um vetor é considerado palíndromo se for igual ao seu reverso.",
+        "exemplo": "Entrada: 1 2 3 4 5 5 4 3 2 1 - Saída: Palindromo - Entrada: 1 2 3 4 5 6 7 8 9 10 - Saída: Nao Palindromo"
+    },
+    {
+        "id": "ex7-ponteiro-c",
+        "titulo": "Cálculo da variância de um vetor de floats",
+        "linguagem": "c",
+        "tema": "ponteiro",
+        "dificuldade": "medio",
+        "dica": "USE APENAS ARITMÉTICA DE PONTEIROS. NÃO USE INDEXADORES ENTRE COLCHETES (EX:[i][j]).",
+        "comando": "Implemente uma função que calcula a variância de um vetor de floats com 5 posições. A variância é a média dos quadrados das diferenças entre cada valor e a média dos valores. - A variância é uma medida de dispersão que indica o quão longe os valores estão da média do conjunto. - Utilize a fórmula: - variancia = 1/N * sum((vetor[i] - media)^2) para i de 0 a N-1 onde N é o número de elementos, vetor[i] é o valor do i-ésimo elemento e media é a média dos valores do vetor.",
+        "exemplo": "Entrada: 5.2 3.4 7.8 6.1 4.3 - Saída: 2.30"
+    },
+    {
+        "id": "ex8-ponteiro-c",
+        "titulo": "Encontrar o segundo maior valor em um vetor de inteiros",
+        "linguagem": "c",
+        "tema": "ponteiro",
+        "dificuldade": "medio",
+        "dica": "USE APENAS ARITMÉTICA DE PONTEIROS. NÃO USE INDEXADORES ENTRE COLCHETES (EX:[i][j]).",
+        "comando": "Implemente uma função que encontra o segundo maior valor de um vetor de inteiros com 5 posições.",
+        "exemplo": "Entrada: 5 3 8 6 4 - Saída: 6"
+    },
+    {
+        "id": "ex9-ponteiro-c",
+        "titulo": "Verificar se um vetor de inteiros está em ordem crescente",
+        "linguagem": "c",
+        "tema": "ponteiro",
+        "dificuldade": "medio",
+        "dica": "USE APENAS ARITMÉTICA DE PONTEIROS. NÃO USE INDEXADORES ENTRE COLCHETES (EX:[i][j]).",
+        "comando": "Implemente uma função que verifica se um vetor de inteiros com 5 posições está em ordem crescente.",
+        "exemplo": "Entrada: 1 2 3 4 5 - Saída: Sim - Entrada: 1 2 7 4 5 - Saída: Nao"
+    },
+    {
+        "id": "ex10-ponteiro-c",
+        "titulo": "Calcular o produto escalar entre dois vetores de floats",
+        "linguagem": "c",
+        "tema": "ponteiro",
+        "dificuldade": "medio",
+        "dica":"USE APENAS ARITMÉTICA DE PONTEIROS. NÃO USE INDEXADORES ENTRE COLCHETES (EX:[i][j]).",
+        "comando": "Implemente uma função que calcula o produto escalar entre dois vetores de floats com 3 posições cada. - O produto escalar é a soma dos produtos dos elementos correspondentes dos vetores. - Utilize a fórmula: - produtoEscalar = sum(vetor1[i] * vetor2[i]) para i de 0 a 2",
+        "exemplo": "Entrada: 1.0 2.0 3.0 - 2.0 3.0 4.0 - Saída: 20.00"
+    },
+    {
+        "id": "ex11-ponteiro-c",
+        "titulo": "Classificar uma fruta com base em suas características e pesos",
+        "linguagem": "c",
+        "tema": "ponteiro",
+        "dificuldade": "medio",
+        "dica": "USE APENAS ARITMÉTICA DE PONTEIROS. NÃO USE INDEXADORES ENTRE COLCHETES (EX:[i][j]).",
+        "comando": "Implemente uma função que classifica uma fruta com base em suas características e pesos fornecidos em dois vetores de floats com 3 posições cada. - Enunciado (classifica_fruta): Dados um vetor de características e um vetor de pesos, ambos com 3 posições, determine a classe de uma fruta. - Primeiro, calcule a saída (saida) utilizando: - saida = sum(caracteristicas[i] * pesos[i]) para i de 0 a 2 - Em seguida, aplique a função sigmoide à saída: - saida_final = 1 / (1 + exp(-saida)) - Se a saida_final for maior ou igual a 0.5, a fruta é classificada como Classe A; caso contrário, como Classe B.",
+        "exemplo": "Entrada: 0.7 0.5 0.3 - 0.7 0.5 0.3 - Saída: Classe A - Entrada: 0.6 0.4 0.2 - -0.8 -0.2 0.5 - Saída: Classe B"
     }
 ]
